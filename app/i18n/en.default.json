@@ -1,0 +1,21 @@
+{
+  "app.name": "_APP_NAME_",
+  "app_version": "_APP_VERSION_",
+  "api": {
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "update_app": "The app is out of date. To access all the latest features and information, please update the app in the AppStore / PlayMarket.",
+    "server_error": "No connection to server",
+    "server_response_error": "Server response error",
+    "auth_error": "Wrong email or password"
+  },
+  "actions": {
+    "open": "Open",
+    "download": "Download",
+    "more": "More",
+    "ok": "Ok",
+    "send": "Send",
+    "cancel": "Cancel"
+  }
+}

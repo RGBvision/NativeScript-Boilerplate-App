@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="_actions_cancel_ZIw6nU">"Cancel"</string>
+  <string name="_actions_send_Z2hLuJq">"Send"</string>
+  <string name="_actions_ok_2bNuwl">"Ok"</string>
+  <string name="_actions_more_Z2hMfa6">"More"</string>
+  <string name="_actions_download_27Hop4">"Download"</string>
+  <string name="_actions_open_Z2hLY03">"Open"</string>
+  <string name="_api_auth_error_1VzD9s">"Wrong email or password"</string>
+  <string name="_api_server_response_error_ZvEULc">"Server response error"</string>
+  <string name="_api_server_error_Z10qFEo">"No connection to server"</string>
+  <string name="_api_update_app_Z19DpuN">"The app is out of date. To access all the latest features and information, please update the app in the AppStore / PlayMarket."</string>
+  <string name="_api_warning_a6hMT">"Warning"</string>
+  <string name="_api_error_Z1KF53w">"Error"</string>
+  <string name="_api_success_1HeoUh">"Success"</string>
+  <string name="app_version">"_APP_VERSION_"</string>
+  <string name="_app_name_1k3Sbz">"_APP_NAME_"</string>
+  <string name="app_name">"_APP_NAME_"</string>
+  <string name="title_activity_kimera">"_APP_NAME_"</string>
+</resources>

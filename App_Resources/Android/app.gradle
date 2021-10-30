@@ -11,10 +11,15 @@
 
 android {
   defaultConfig {
-    minSdkVersion 17
+    minSdkVersion 26
     generatedDensities = []
   }
   aaptOptions {
     additionalParameters "--no-version-vectors"
+  }
+  bundle {
+    language {
+      enableSplit = false
+    }
   }
 }

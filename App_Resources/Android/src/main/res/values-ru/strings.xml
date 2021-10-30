@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="_actions_cancel_ZIw6nU">"Отмена"</string>
+  <string name="_actions_send_Z2hLuJq">"Отправить"</string>
+  <string name="_actions_ok_2bNuwl">"Ok"</string>
+  <string name="_actions_more_Z2hMfa6">"Подробнее"</string>
+  <string name="_actions_download_27Hop4">"Скачать"</string>
+  <string name="_actions_open_Z2hLY03">"Открыть"</string>
+  <string name="_api_auth_error_1VzD9s">"Неверный email или пароль"</string>
+  <string name="_api_server_response_error_ZvEULc">"Ошибка в ответе сервера"</string>
+  <string name="_api_server_error_Z10qFEo">"Нет соединения с сервером"</string>
+  <string name="_api_update_app_Z19DpuN">"Приложение устарело. Для доступа ко всем актуальным функциям и информации, пожалуйста, обновите приложение в AppStore / PlayMarket."</string>
+  <string name="_api_warning_a6hMT">"Внимание"</string>
+  <string name="_api_error_Z1KF53w">"Ошибка"</string>
+  <string name="_api_success_1HeoUh">"Успех"</string>
+  <string name="app_version">"_APP_VERSION_"</string>
+  <string name="_app_name_1k3Sbz">"_APP_NAME_"</string>
+  <string name="app_name">"_APP_NAME_"</string>
+  <string name="title_activity_kimera">"_APP_NAME_"</string>
+</resources>

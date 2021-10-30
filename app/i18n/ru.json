@@ -1,0 +1,21 @@
+{
+  "app.name": "_APP_NAME_",
+  "app_version": "_APP_VERSION_",
+  "api": {
+    "success": "Успех",
+    "error": "Ошибка",
+    "warning": "Внимание",
+    "update_app": "Приложение устарело. Для доступа ко всем актуальным функциям и информации, пожалуйста, обновите приложение в AppStore / PlayMarket.",
+    "server_error": "Нет соединения с сервером",
+    "server_response_error": "Ошибка в ответе сервера",
+    "auth_error": "Неверный email или пароль"
+  },
+  "actions": {
+    "open": "Открыть",
+    "download": "Скачать",
+    "more": "Подробнее",
+    "ok": "Ok",
+    "send": "Отправить",
+    "cancel": "Отмена"
+  }
+}
