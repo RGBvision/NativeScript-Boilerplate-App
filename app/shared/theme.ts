@@ -35,14 +35,14 @@ export function applyTheme(): void {
         decorView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE | View.SYSTEM_UI_FLAG_VISIBLE | View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
       } else {
         window.setNavigationBarColor(new Color("#ffffff").android);
-        window.setNavigationBarDividerColor(new Color("#eceff1").android);
+        window.setNavigationBarDividerColor(new Color("#819ca9").android);
         decorView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE | View.SYSTEM_UI_FLAG_VISIBLE | View.SYSTEM_UI_FLAG_LIGHT_NAVIGATION_BAR | View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
       }
     } else {
-      window.setStatusBarColor(new Color("#263238").android);
+      window.setStatusBarColor(new Color("#15202B").android);
       if (parseFloat(Device.sdkVersion) >= 26) {
-        window.setNavigationBarColor(new Color("#263238").android);
-        window.setNavigationBarDividerColor(new Color("#37474f").android);
+        window.setNavigationBarColor(new Color("#15202B").android);
+        window.setNavigationBarDividerColor(new Color("#262f38").android);
       }
       decorView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE | View.SYSTEM_UI_FLAG_VISIBLE);
     }

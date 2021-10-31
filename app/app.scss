@@ -1,0 +1,47 @@
+﻿$accent: #00b0ff;
+
+$white: #fff;
+$black: #000;
+$charcoal: $black;
+$success: #00c853;
+$warning: #ffa726;
+$danger: #f44336;
+
+$theme-light-bg: #eceff1;
+$theme-light-text: #090d12;
+$theme-light-text-muted: #262f38;
+$theme-light-border-color: #819ca9;
+
+$theme-dark-bg: #15202B;
+$theme-dark-text: $white;
+$theme-dark-text-muted: #819ca9;
+$theme-dark-border-color: #262f38;
+
+$font-size: 14;
+
+@import "~@nativescript/theme/core";
+@import '~@nativescript/theme/index';
+
+Page {
+  background-color: $theme-light-bg;
+  color: $theme-light-text;
+}
+
+.ns-dark {
+  Page {
+    background-color: $theme-dark-bg;
+    color: $theme-dark-text;
+  }
+}
+
+Label,
+Button {
+  color: $theme-light-text;
+}
+
+.ns-dark {
+  Label,
+  Button {
+    color: $theme-dark-text;
+  }
+}
