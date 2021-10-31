@@ -1,7 +1,16 @@
 {
-  "name": "NativeScriptBoilerplateApp",
+  "name": "nativescript-boilerplate",
   "main": "app/app.ts",
   "version": "1.0.0",
+  "author": "Alex Graham <contact@rgbvision.net>",
+  "description": "NativeScript (TypeScript) boilerplate application",
+  "readme": "https://github.com/RGBvision/nativescript-boilerplate/README.md",
+  "homepage": "https://github.com/RGBvision/nativescript-boilerplate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RGBvision/nativescript-boilerplate.git"
+  },
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@nativescript-community/https": "^3.3.2",
