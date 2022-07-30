@@ -37,15 +37,7 @@ export class API {
         .then(
           (response) => {
 
-            let content: any;
-
-            if (typeof response.content === "string") {
-              content = JSON.parse(response.content);
-            }
-
-            if (typeof response.content === "object") {
-              content = response.content;
-            }
+            const content = response.content.toJSON();
 
             if (response.statusCode === 200) {
               resolve(content);
@@ -56,7 +48,7 @@ export class API {
           },
 
           (reason) => {
-            reject(localize('api.server_error'));
+            reject(localize('api.server_error') || reason);
           }
 
         );
