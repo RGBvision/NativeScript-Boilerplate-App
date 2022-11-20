@@ -1,5 +1,6 @@
 import {EventData, fromObject, ObservableArray, Page} from '@nativescript/core';
-import {applyTheme} from "~/shared/theme";
+import {applyTheme} from "~/utils/theme";
+import {orientationType, setOrientation} from "~/utils/orientation";
 
 const users = [
   { name: 'Billy Bob' },
@@ -23,4 +24,5 @@ export function navigatingTo(args: EventData) {
 
 export function pageLoaded() {
   applyTheme();
+  setOrientation(orientationType.landscape);
 }
