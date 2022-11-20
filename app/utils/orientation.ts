@@ -10,10 +10,10 @@ export enum orientationType {
  * Locks / unlocks specified screen orientation
  *
  * @example
- * toggleOrientation(orientationType.landscape); // lock landscape orientation
+ * setOrientation(orientationType.landscape); // lock landscape orientation
  *
  * @example
- * toggleOrientation(); // clear orientation
+ * setOrientation(); // clear orientation
  *
  * @param orientation
  */
