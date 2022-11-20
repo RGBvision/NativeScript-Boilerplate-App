@@ -13,16 +13,17 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "@nativescript-community/https": "^4.0.6",
-    "@nativescript/core": "~8.3.1",
+    "@nativescript-community/https": "^4.0.10",
+    "@nativescript/core": "~8.3.6",
     "@nativescript/localize": "^5.0.4",
     "@nativescript/theme": "~3.0.2",
     "nativescript-dna-deviceinfo": "^3.7.3"
   },
   "devDependencies": {
-    "@nativescript/android": "~8.3.0",
+    "@nativescript/android": "~8.3.1",
+    "@nativescript/ios": "~8.3.3",
     "@nativescript/types": "~8.3.1",
-    "@nativescript/webpack": "~5.0.8",
-    "typescript": "~4.7.4"
+    "@nativescript/webpack": "~5.0.10",
+    "typescript": "~4.9.3"
   }
 }
